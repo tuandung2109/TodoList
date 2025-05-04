@@ -1,0 +1,14 @@
+*BẢN MÔ TẢ NGHIỆP VỤ XỬ LÍ*
+
+- Thêm được task vào trong list 
+    +, Nếu có khoảng trắng thừa thì sẽ thông báo lỗi
+    +, Nếu nhập newtask mà trùng với task có sẵn trong list rồi thì nó sẽ báo lỗi 
+- Đánh dấu được nhiệm vụ đã làm chưa ()
+- Xóa được nhiệm vụ  (slice())
+- Sửa được phần tử trong list 
+    +, Trong sửa thì sẽ có nhiều nghiệp vụ khác là khi 
+    +, Fix dc lỗi bấm cancel thì nó sẽ chuyển về NULL
+    +, Nếu sửa nội dung mà trùng với 1 trong các task có sẵn trong list ròi thì nó sẽ báo lỗi 
+- Lưu dữ liệu được vào localStorage
+- Có sử dụng đển DataSet (data-index)
+- Secure : XSS 
